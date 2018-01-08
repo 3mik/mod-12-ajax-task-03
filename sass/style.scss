@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin-ext');
+* {
+ // margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+#countries {
+  list-style-type: none;
+   li {
+     margin-top: 2%;
+   }
+  section {
+        width: 40%;    
+        border: 1px solid black;
+        margin-left: 10%;
+        
+        p, h1, h3 {
+            background-color: lightgrey;
+            border-bottom: 1px solid black;
+            margin: 0;    
+        
+        }  
+        
+        
+        h3 {
+            padding: 1%;
+        }
+
+        span {
+            display: inline-block;      
+            height: 100%;
+            padding: 1%;      
+            //border: 1px solid green;
+            img {
+                display: inline-block;
+                width: 100%;
+                height: 100;
+            }
+        }
+        
+        .desc {
+            background-color: grey;
+            width: 30%;
+            font-weight: bold;
+        }
+        
+        h1 {
+            span.desc {
+                background-color: lightgrey;
+            }
+            
+            span.title {
+                font-size: 2em;
+            }
+        }
+    }
+}

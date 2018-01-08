@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin-ext");
+* {
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+#countries {
+  list-style-type: none;
+}
+
+#countries li {
+  margin-top: 2%;
+}
+
+#countries section {
+  width: 40%;
+  border: 1px solid black;
+  margin-left: 10%;
+}
+
+#countries section p, #countries section h1, #countries section h3 {
+  background-color: lightgrey;
+  border-bottom: 1px solid black;
+  margin: 0;
+}
+
+#countries section h3 {
+  padding: 1%;
+}
+
+#countries section span {
+  display: inline-block;
+  height: 100%;
+  padding: 1%;
+}
+
+#countries section span img {
+  display: inline-block;
+  width: 100%;
+  height: 100;
+}
+
+#countries section .desc {
+  background-color: grey;
+  width: 30%;
+  font-weight: bold;
+}
+
+#countries section h1 span.desc {
+  background-color: lightgrey;
+}
+
+#countries section h1 span.title {
+  font-size: 2em;
+}
+/*# sourceMappingURL=style.css.map */
